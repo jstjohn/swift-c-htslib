@@ -6,7 +6,7 @@
 */
 module CBGZF [system] {
     header "/usr/local/include/htslib/bgzf.h"
-    link "bgzf"
+    link "hts"
     export *
 }
 
@@ -15,7 +15,7 @@ module CBGZF [system] {
 */
 module CCRAM [system] {
     header "/usr/local/include/htslib/cram.h"
-    link "cram"
+    link "hts"
     export *
 }
 
@@ -24,7 +24,7 @@ module CCRAM [system] {
 */
 module CFaIdx [system] {
     header "/usr/local/include/htslib/faidx.h"
-    link "faidx"
+    link "hts"
     export *
 }
 
@@ -33,7 +33,7 @@ module CFaIdx [system] {
 */
 module CHFile [system] {
     header "/usr/local/include/htslib/hfile.h"
-    link "hfile"
+    link "hts"
     export *
 }
 
@@ -51,7 +51,7 @@ module CHTS [system] {
 */
 module CHTSDefs [system] {
     header "/usr/local/include/htslib/hts_defs.h"
-    link "hts_defs"
+    link "hts"
     export *
 }
 
@@ -60,7 +60,7 @@ module CHTSDefs [system] {
 */
 module CKBitSet [system] {
     header "/usr/local/include/htslib/kbitset.h"
-    link "kbitset"
+    link "hts"
     export *
 }
 
@@ -69,7 +69,7 @@ module CKBitSet [system] {
 */
 module CKFunc [system] {
     header "/usr/local/include/htslib/kfunc.h"
-    link "kfunc"
+    link "hts"
     export *
 }
 
@@ -78,7 +78,7 @@ module CKFunc [system] {
 */
 module CKHash [system] {
     header "/usr/local/include/htslib/khash.h"
-    link "khash"
+    link "hts"
     export *
 }
 
@@ -87,7 +87,7 @@ module CKHash [system] {
 */
 module CKHashStr2Int [system] {
     header "/usr/local/include/htslib/khash_str2int.h"
-    link "khash_str2int"
+    link "hts"
     export *
 }
 
@@ -96,7 +96,7 @@ module CKHashStr2Int [system] {
 */
 module CKList [system] {
     header "/usr/local/include/htslib/klist.h"
-    link "klist"
+    link "hts"
     export *
 }
 
@@ -105,7 +105,7 @@ module CKList [system] {
 */
 module CKNetFile [system] {
     header "/usr/local/include/htslib/knetfile.h"
-    link "knetfile"
+    link "hts"
     export *
 }
 
@@ -114,7 +114,7 @@ module CKNetFile [system] {
 */
 module CKseq [system] {
     header "/usr/local/include/htslib/kseq.h"
-    link "kseq"
+    link "hts"
     export *
 }
 
@@ -123,7 +123,7 @@ module CKseq [system] {
 */
 module CKSort [system] {
     header "/usr/local/include/htslib/ksort.h"
-    link "ksort"
+    link "hts"
     export *
 }
 
@@ -132,7 +132,7 @@ module CKSort [system] {
 */
 module CKString [system] {
     header "/usr/local/include/htslib/kstring.h"
-    link "kstring"
+    link "hts"
     export *
 }
 
@@ -141,7 +141,7 @@ module CKString [system] {
 */
 module CRegIdx [system] {
     header "/usr/local/include/htslib/regidx.h"
-    link "regidx"
+    link "hts"
     export *
 }
 
@@ -150,7 +150,7 @@ module CRegIdx [system] {
 */
 module CSAM [system] {
     header "/usr/local/include/htslib/sam.h"
-    link "sam"
+    link "hts"
     export *
 }
 /**
@@ -158,7 +158,7 @@ module CSAM [system] {
 */
 module CSyncedBCFReader [system] {
     header "/usr/local/include/htslib/synced_bcf_reader.h"
-    link "synced_bcf_reader"
+    link "hts"
     export *
 }
 
@@ -167,7 +167,7 @@ module CSyncedBCFReader [system] {
 */
 module CTBX [system] {
     header "/usr/local/include/htslib/tbx.h"
-    link "tbx"
+    link "hts"
     export *
 }
 
@@ -176,7 +176,7 @@ module CTBX [system] {
 */
 module CVCF [system] {
     header "/usr/local/include/htslib/vcf.h"
-    link "vcf"
+    link "hts"
     export *
 }
 
@@ -185,7 +185,7 @@ module CVCF [system] {
 */
 module CVCFSweep [system] {
     header "/usr/local/include/htslib/vcf_sweep.h"
-    link "vcf_sweep"
+    link "hts"
     export *
 }
 
@@ -194,7 +194,7 @@ module CVCFSweep [system] {
 */
 module CVCFUtils [system] {
     header "/usr/local/include/htslib/vcfutils.h"
-    link "vcfutils"
+    link "hts"
     export *
 }
 
