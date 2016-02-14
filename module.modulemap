@@ -1,0 +1,201 @@
+/* see https://github.com/apple/swift-package-manager/blob/master/Documentation/SystemModules.md
+*/
+
+/**
+/usr/local/include/htslib/bgzf.h
+*/
+module CBGZF [system] {
+    header "/usr/local/include/htslib/bgzf.h"
+    link "bgzf"
+    export *
+}
+
+/**
+/usr/local/include/htslib/cram.h
+*/
+module CCRAM [system] {
+    header "/usr/local/include/htslib/cram.h"
+    link "cram"
+    export *
+}
+
+/**
+/usr/local/include/htslib/faidx.h
+*/
+module CFaIdx [system] {
+    header "/usr/local/include/htslib/faidx.h"
+    link "faidx"
+    export *
+}
+
+/**
+/usr/local/include/htslib/hfile.h
+*/
+module CHFile [system] {
+    header "/usr/local/include/htslib/hfile.h"
+    link "hfile"
+    export *
+}
+
+/**
+/usr/local/include/htslib/hts.h
+*/
+module CHTS [system] {
+    header "/usr/local/include/htslib/hts.h"
+    link "hts"
+    export *
+}
+
+/**
+/usr/local/include/htslib/hts_defs.h
+*/
+module CHTSDefs [system] {
+    header "/usr/local/include/htslib/hts_defs.h"
+    link "hts_defs"
+    export *
+}
+
+/**
+/usr/local/include/htslib/kbitset.h
+*/
+module CKBitSet [system] {
+    header "/usr/local/include/htslib/kbitset.h"
+    link "kbitset"
+    export *
+}
+
+/**
+/usr/local/include/htslib/kfunc.h
+*/
+module CKFunc [system] {
+    header "/usr/local/include/htslib/kfunc.h"
+    link "kfunc"
+    export *
+}
+
+/**
+/usr/local/include/htslib/khash.h
+*/
+module CKHash [system] {
+    header "/usr/local/include/htslib/khash.h"
+    link "khash"
+    export *
+}
+
+/**
+/usr/local/include/htslib/khash_str2int.h
+*/
+module CKHashStr2Int [system] {
+    header "/usr/local/include/htslib/khash_str2int.h"
+    link "khash_str2int"
+    export *
+}
+
+/**
+/usr/local/include/htslib/klist.h
+*/
+module CKList [system] {
+    header "/usr/local/include/htslib/klist.h"
+    link "klist"
+    export *
+}
+
+/**
+/usr/local/include/htslib/knetfile.h
+*/
+module CKNetFile [system] {
+    header "/usr/local/include/htslib/knetfile.h"
+    link "knetfile"
+    export *
+}
+
+/**
+/usr/local/include/htslib/kseq.h
+*/
+module CKseq [system] {
+    header "/usr/local/include/htslib/kseq.h"
+    link "kseq"
+    export *
+}
+
+/**
+/usr/local/include/htslib/ksort.h
+*/
+module CKSort [system] {
+    header "/usr/local/include/htslib/ksort.h"
+    link "ksort"
+    export *
+}
+
+/**
+/usr/local/include/htslib/kstring.h
+*/
+module CKString [system] {
+    header "/usr/local/include/htslib/kstring.h"
+    link "kstring"
+    export *
+}
+
+/**
+/usr/local/include/htslib/regidx.h
+*/
+module CRegIdx [system] {
+    header "/usr/local/include/htslib/regidx.h"
+    link "regidx"
+    export *
+}
+
+/**
+/usr/local/include/htslib/sam.h
+*/
+module CSAM [system] {
+    header "/usr/local/include/htslib/sam.h"
+    link "sam"
+    export *
+}
+/**
+/usr/local/include/htslib/synced_bcf_reader.h
+*/
+module CSyncedBCFReader [system] {
+    header "/usr/local/include/htslib/synced_bcf_reader.h"
+    link "synced_bcf_reader"
+    export *
+}
+
+/**
+/usr/local/include/htslib/tbx.h
+*/
+module CTBX [system] {
+    header "/usr/local/include/htslib/tbx.h"
+    link "tbx"
+    export *
+}
+
+/**
+/usr/local/include/htslib/vcf.h
+*/
+module CVCF [system] {
+    header "/usr/local/include/htslib/vcf.h"
+    link "vcf"
+    export *
+}
+
+/**
+/usr/local/include/htslib/vcf_sweep.h
+*/
+module CVCFSweep [system] {
+    header "/usr/local/include/htslib/vcf_sweep.h"
+    link "vcf_sweep"
+    export *
+}
+
+/**
+/usr/local/include/htslib/vcfutils.h
+*/
+module CVCFUtils [system] {
+    header "/usr/local/include/htslib/vcfutils.h"
+    link "vcfutils"
+    export *
+}
+
+
